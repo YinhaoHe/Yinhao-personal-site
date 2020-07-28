@@ -92,16 +92,14 @@ const Contact = () => {
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
+          <p>Feel free to get in touch. You can email me by clicking on: </p>
           <div
             className="inline-container"
             style={validateText(message) ? {} : { color: "red" }}
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => idx < messages.length && setIsActive(true)}
           >
-            <a
-              href={validateText(message) ? `mailto:${message}@gmail.com` : ""}
-            >
+            <a href={validateText(message) ? `mailto:yinhaohe7@gmail.com` : ""}>
               <span>{message}</span>
               <span>@gmail.com</span>
             </a>

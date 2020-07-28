@@ -4,7 +4,7 @@ const data = [
     title: "Coupon Distribution System",
     subtitle: "Coupon distribution system based on Kafka, HBase & Spring Boot.",
     link: "https://github.com/YinhaoHe/Coupon-Distribution-System",
-    image: "/images/projects/couponDistributionSystem.jpg",
+    image: "https://i.loli.net/2020/07/29/VB4eG52Rswvmcqu.jpg",
     date: "2020-03",
     desc:
       "Built Pub/Sub coupon distribution system with Kafka, HBase & MySQL, Redis as cache, Spring Boot for backend service.  " +
@@ -16,7 +16,7 @@ const data = [
     title: "UCI Cloudberry Big Data Visualization ",
     subtitle: "Gowalla GIS big data visualization",
     link: "http://cloudberry.ics.uci.edu/apps/twittermap/",
-    image: "/images/projects/cloudBerry.jpg",
+    image: "https://i.loli.net/2020/07/29/izYP8ZsgCOrjI7y.png",
     date: "2019-03",
     desc:
       "Improved performance 50% by building code using JavaScript to force browser call GPU to render. " +
@@ -27,7 +27,7 @@ const data = [
     title: "Commercial Big Data Analysis Based on WiFi Probe",
     subtitle: "Hadoop-based big data analysis system",
     link: " ",
-    image: "/images/projects/wifi.jpg",
+    image: "https://i.loli.net/2020/07/29/bwPpXWnZ6mCyODE.png",
     date: "2017-07",
     desc:
       "Collaborated with team to analyze data using Hadoop and Spark, with coding by Scala. " +
@@ -38,7 +38,7 @@ const data = [
     title: "Dalian Taxi Android App (Similar to Uber)",
     subtitle: "Dalian taxi Android app(ride service hailing)",
     link: "https://github.com/YinhaoHe/Dalian-Taxi",
-    image: "/images/projects/dalianTaxi.jpg",
+    image: "https://i.loli.net/2020/07/29/RUxM2A1koVyCZ9u.jpg",
     date: "2017-04",
     desc:
       "Led Android app development to follow UI/UX’s design, database design & REST API endpoints design for backend service. " +

@@ -87,7 +87,7 @@ class Skills extends Component {
         <div className="link-to" id="skills" />
         <div className="title">
           <h3>Skills</h3>
-          <p>Some Technical Skills</p>
+          <p>Technical Skills</p>
         </div>
         <div className="skill-button-container">{this.getButtons()}</div>
         <div className="skill-row-container">{this.getRows()}</div>
