@@ -4,7 +4,7 @@ const data = {
     value: "23 years",
   },
   experiences: {
-    label: "Current learning experience",
+    label: "Current programming experience",
     value: "7 years",
   },
   location: {
