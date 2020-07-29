@@ -6,7 +6,7 @@ My personal website. Easily modifiable, and built using modern javascript with N
 
 ## A note on adapting this repository to your own personal website
 
-## Dependencies
+## Dependencies USE NODE 12 !!
 
 Tested with:
 
