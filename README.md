@@ -1,12 +1,10 @@
-# [mldHe.com](http://mldHe.com) and simplified [mldHe.github.io/personal-site](https://mldHe.github.io/personal-site/)
+# yinhaohe.tech and simplified
+
+#  https://yinhaohe.github.io/Yinhao-personal-site/
 
 My personal website. Easily modifiable, and built using modern javascript with Node.js, React, Express, React-Router, Hot Module Reloading, Webpack and many other technologies.
 
-The master branch of this repository contains a simplified version of my website intended for serverless hosting on github pages. To view the source for the version hosted at [mldHe.com](http://mldHe.com), checkout the [server](https://github.com/mldHe/personal-site/tree/server) branch.
-
 ## A note on adapting this repository to your own personal website
-
-Many people have contacted me about adapting this website. I have tried to make things as simple as possible. There are still bugs. I am sorry. If you find a bug, please email me (help@mldHe.com) or submit an issue or a pull request.
 
 ## Dependencies
 
@@ -61,7 +59,7 @@ You may wish to fork this repository or remove my remote origin and add your own
 
 8. Configure your domains DNS record. See [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
 9. Change `homepage` in `package.json` to reflect where you plan to host the site. This is important for react-snap. If using a custom url, modify the [CNAME](/public/CNAME) file to point to your URL. If you plan to deploy to a /[path]
-   (e.g. [https://mldHe.github.io/personal-site/](https://mldHe.github.io/personal-site/)), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
+   (e.g. https://yinhaohe.github.io/Yinhao-personal-site/), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
 
 ## Deploying to Github Pages
 
@@ -69,19 +67,6 @@ You may wish to fork this repository or remove my remote origin and add your own
 2. Run `npm run deploy`
 
 That's it.
-
-Please feel free to reach out to me by filing an issue or at [help@mldHe.com](mailto:help@mldHe.com) for help configuring your project.
-
-## Contributors
-
-- [@mldHe](https://github.com/mldHe)
-- [@typpo](https://github.com/typpo)
-- [@notrueblood](https://github.com/notrueblood)
-
-## Acknowledgements
-
-- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-- Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
 
 ## License
 
