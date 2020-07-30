@@ -15,7 +15,7 @@ const Cell = ({ data }) => (
         </time>
       </header>
       <a href={data.link} className="image">
-        <img src={data.image} alt={data.title} />
+        <img src={url.resolve(BASE_PATH, data.image)} alt={data.title} />
       </a>
       <div className="description">
         <p>{data.desc}</p>
