@@ -1,6 +1,4 @@
-# yinhaohe.tech and simplified
-
-#  https://yinhaohe.github.io/Yinhao-personal-site/
+# [yinhaohe.tech](https://yinhaohe.tech/)
 
 My personal website. Easily modifiable, and built using modern javascript with Node.js, React, Express, React-Router, Hot Module Reloading, Webpack and many other technologies.
 
