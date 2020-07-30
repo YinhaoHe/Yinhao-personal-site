@@ -33,7 +33,7 @@ const data = [
     icon: faTwitter,
   },
   {
-    link: "yinhaohe7@gmail.com",
+    link: "/contact",
     label: "Email",
     icon: faEnvelope,
   },

@@ -13,7 +13,9 @@ const Nav = () => (
       </Link>
       <header>
         <h2>Yinhao He</h2>
-        <p>yinhaohe7@gmail.com</p>
+        <Link to="/contact">
+          <p>yinhaohe7@gmail.com</p>
+        </Link>
       </header>
     </section>
 
