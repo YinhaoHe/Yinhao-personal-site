@@ -1,16 +1,43 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: "Coupon Distribution System",
+    title: "Kafka, HBase based Coupon Distribution System",
     subtitle: "Coupon distribution system based on Kafka, HBase & Spring Boot.",
     link: "https://github.com/YinhaoHe/Coupon-Distribution-System",
     image: "/images/projects/coupondistributionsystem.jpg",
+    date: "2020-06",
+    desc:
+      "Built the system with Kafka, HBase and MySQL, Redis as cache, Spring Boot for backend service.  " +
+      "Created multiple Kafka brokers for collecting customers behavior and coupon consumption. " +
+      "Used MySQL to manage merchant database; created HBase tables to manage and store large scale consumer data.  " +
+      "Accelerated token verification when consuming coupons with Spring Data Redis for token caching and quick loading.  " +
+      "Performed stress test using Apache Jmeter and tested average query time in multi-thread mode.",
+  },
+  {
+    title: "Hadoop, Spark, IoT based WIFI Probe Big Data Analysis Platform",
+    subtitle: "Hadoop, Spark, Scala big data analysis system",
+    link: " ",
+    image: "/images/projects/wifi.jpg",
     date: "2020-03",
     desc:
-      "Built Pub/Sub coupon distribution system with Kafka, HBase & MySQL, Redis as cache, Spring Boot for backend service.  " +
-      "Leveraged Kafka to implement message queue for coupon distribution, data persistence, data retention policy. " +
-      "Used MySQL to manage merchant database, HBase to distribute & store large scale consumer data.  " +
-      "Created Java Servlet rest APIs to handle http requests and tested with Postman; performed stress test with JMeter.",
+      "Implemented big data analysis system with Hadoop, Spark, Scala; visualized the results using ECharts.js, d3.js. " +
+      "Collaborated with team to collect MAC address data using IoT WIFI probe device in public places for analyzing passenger flow, length of stay, re-visiting cycle using Hadoop and Spark, with coding by Scala. " +
+      "Developed real-time communication between backend and frontend using Python and Flask-SocketIO. " +
+      "Deployed on AWS EC2 with Docker; used Hive to store original data, PostgreSQL to store analysis result.",
+  },
+  {
+    title:
+      "Online Taxi Hailing Service Web/Mobile Application (Similar to Uber)",
+    subtitle:
+      "Web and Mobile application based on Angular, Ionic, Node.js, Express",
+    link: " ",
+    image: "/images/projects/daliantaxi.jpg",
+    date: "2017-04",
+    desc:
+      "Led web/mobile application development with Angular, RESTful API endpoints and MySQL design with Node.js, SQL. " +
+      "Built frontend using Ionic 2, Material-UI; complied web application to IOS and Android applications using Cordova. " +
+      "Developed user authentication with Passport.js for Oauth2 based users; created SMS notification with Alidayu-node. " +
+      "Implemented online payment for hailing service with Alipay SDK API; realized QR code login using node-qrcode.",
   },
   {
     title: "UCI Cloudberry Big Data Visualization ",
@@ -20,31 +47,8 @@ const data = [
     date: "2019-03",
     desc:
       "Improved performance 50% by building code using JavaScript to force browser call GPU to render. " +
-      "Visualized 7.6 million GIS data records on frontend by d3.js, sigma.js, and WebGL in less than 60 seconds. " +
+      "Visualized 7.6 million GIS data records on frontend by d3.js, sigma.js, and WebGL. " +
       "Built full-stack system prototype to measure network latency of data transferring using UCI Cloudberry as middleware.",
-  },
-  {
-    title: "Commercial Big Data Analysis Based on WiFi Probe",
-    subtitle: "Hadoop-based big data analysis system",
-    link: " ",
-    image: "/images/projects/wifi.jpg",
-    date: "2017-07",
-    desc:
-      "Collaborated with team to analyze data using Hadoop and Spark, with coding by Scala. " +
-      "Distributed deployment on Linux server using Docker, distributed data storage in HBase. " +
-      "Oversaw backend development by implementing interaction with hardware using Java and Jfinal Framework.",
-  },
-  {
-    title: "Dalian Taxi Android App (Similar to Uber)",
-    subtitle: "Dalian taxi Android app(ride service hailing)",
-    link: "https://github.com/YinhaoHe/Dalian-Taxi",
-    image: "/images/projects/daliantaxi.jpg",
-    date: "2017-04",
-    desc:
-      "Led Android app development to follow UI/UX’s design, database design & REST API endpoints design for backend service. " +
-      "Built frontend webpage for user login, hailing service, service status display using JavaScript(Angular) and Bootstrap. " +
-      "Implemented automatic email & SMS confirmations upon creation of hailing order, order confirmation and order completed receipt; Built user login authentication with SMS verification code. " +
-      "Oversaw operations and maintenance within project team environment; gained user feedback by application reviews.",
   },
 ];
 
