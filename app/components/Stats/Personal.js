@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Table from "./Table";
-import personalData from "../../data/stats";
+import Table from './Table';
+import personalData from '../../data/stats';
 
 const PersonalStats = () => {
   const [data, setData] = useState(personalData);
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date("1997-07-22T09:24:00");
+    const birthTime = new Date('1997-07-22T09:24:00');
     setData({
       ...data,
       age: {
-        label: "Current age",
+        label: 'Current age',
         value: ((Date.now() - birthTime) / divisor).toFixed(11),
       },
     });
