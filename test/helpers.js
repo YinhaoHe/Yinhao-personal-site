@@ -8,29 +8,29 @@ const randomString = (length) => {
 
 const pages = [
   {
-    route: "/",
+    route: '/',
     title: "Yinhao'He",
-    heading: "ABOUT THIS SITE",
+    heading: 'ABOUT THIS SITE',
   },
   {
-    route: "/about",
+    route: '/about',
     title: "About | Yinhao'He",
-    heading: "ABOUT ME",
+    heading: 'ABOUT ME',
   },
   {
-    route: "/projects",
+    route: '/projects',
     title: "Projects | Yinhao'He",
-    heading: "PROJECTS",
+    heading: 'PROJECTS',
   },
   {
-    route: "/stats",
+    route: '/stats',
     title: "Stats | Yinhao'He",
-    heading: "STATS",
+    heading: 'STATS',
   },
   {
-    route: "/contact",
+    route: '/contact',
     title: "Contact | Yinhao'He",
-    heading: "CONTACT",
+    heading: 'CONTACT',
   },
 ];
 

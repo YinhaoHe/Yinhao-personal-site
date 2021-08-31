@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import CategoryButton from "./Skills/CategoryButton";
-import SkillBar from "./Skills/SkillBar";
+import CategoryButton from './Skills/CategoryButton';
+import SkillBar from './Skills/SkillBar';
 
 const handleProps = ({ categories, skills }) => ({
   buttons: categories
@@ -12,7 +12,7 @@ const handleProps = ({ categories, skills }) => ({
         ...obj,
         [key]: false,
       }),
-      { All: true }
+      { All: true },
     ),
   skills,
 });
@@ -30,7 +30,7 @@ class Skills extends Component {
     // search for true active categories
     const actCat = Object.keys(this.state.buttons).reduce(
       (cat, key) => (this.state.buttons[key] ? key : cat),
-      "All"
+      'All',
     );
 
     return this.state.skills
@@ -44,7 +44,7 @@ class Skills extends Component {
         else if (a.title < b.title) ret = -1;
         return ret;
       })
-      .filter((skill) => actCat === "All" || skill.category.includes(actCat))
+      .filter((skill) => actCat === 'All' || skill.category.includes(actCat))
       .map((skill) => (
         <SkillBar
           categories={this.props.categories}
@@ -73,7 +73,7 @@ class Skills extends Component {
           ...obj,
           [key]: label === key && !prevState.buttons[key],
         }),
-        {}
+        {},
       );
       // Turn on 'All' button if other buttons are off
       buttons.All = !Object.keys(prevState.buttons).some((key) => buttons[key]);
@@ -102,13 +102,13 @@ Skills.propTypes = {
       title: PropTypes.string,
       competency: PropTypes.number,
       category: PropTypes.arrayOf(PropTypes.string),
-    })
+    }),
   ),
   categories: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
       color: PropTypes.string,
-    })
+    }),
   ),
 };
 

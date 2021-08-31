@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import Main from "../layouts/Main";
+import Main from '../layouts/Main';
 
-import data from "../data/contact";
+import data from '../data/contact';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
@@ -16,22 +16,22 @@ const validateText = (text) => {
 };
 
 const messages = [
-  "hi",
-  "hello",
-  "hola",
-  "you-can-email-me-at-literally-anything! Really",
-  "well, not anything. But most things",
-  "like-this",
-  "or-this",
-  "but not this :(  ",
-  "you.can.also.email.me.with.specific.topics.like",
-  "just-saying-hi",
-  "please-work-for-us",
-  "help",
-  "admin",
-  "or-I-really-like-your-website",
+  'hi',
+  'hello',
+  'hola',
+  'you-can-email-me-at-literally-anything! Really',
+  'well, not anything. But most things',
+  'like-this',
+  'or-this',
+  'but not this :(  ',
+  'you.can.also.email.me.with.specific.topics.like',
+  'just-saying-hi',
+  'please-work-for-us',
+  'help',
+  'admin',
+  'or-I-really-like-your-website',
   "I'll-stop-distracting-you-now",
-  "thanks",
+  'thanks',
 ];
 
 const useInterval = (callback, delay) => {
@@ -77,7 +77,7 @@ const Contact = () => {
         updateChar(newChar + 1);
       }
     },
-    isActive ? delay : null
+    isActive ? delay : null,
   );
 
   return (
@@ -95,11 +95,11 @@ const Contact = () => {
           <p>Feel free to get in touch. You can email me by clicking on : )</p>
           <div
             className="inline-container"
-            style={validateText(message) ? {} : { color: "red" }}
+            style={validateText(message) ? {} : { color: 'red' }}
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => idx < messages.length && setIsActive(true)}
           >
-            <a href={validateText(message) ? `mailto:yinhaohe7@gmail.com` : ""}>
+            <a href={validateText(message) ? 'mailto:yinhaohe7@gmail.com' : ''}>
               <span>{message}</span>
               <span>@gmail.com</span>
             </a>

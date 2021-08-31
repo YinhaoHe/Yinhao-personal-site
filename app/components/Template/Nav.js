@@ -35,9 +35,12 @@ const Nav = () => (
         <a href="http://www.ccb.com/en/home/indexv3.html">
           China Construction Bank (CCB)
         </a>
-        . Other than an engineer, I also worked as a volunteer developer/trainer at <a href="http://www.ardentacademy.com/?gclid=CjwKCAjw9vn4BRBaEiwAh0muDPhA5t8eTpzBpMEMe1MeMLIcuky2OcVV9BDoYLEHD3xtGGaWV-420hoCdpYQAvD_BwE">
+        . Other than an engineer, I also worked as a volunteer developer/trainer at
+        <a href="http://www.ardentacademy.com/?gclid=CjwKCAjw9vn4BRBaEiwAh0muDPhA5t8eTpzBpMEMe1MeMLIcuky2OcVV9BDoYLEHD3xtGGaWV-420hoCdpYQAvD_BwE">
           Ardent Academy
-        </a> teaching Python for AI. I enjoy programming, and I am actively looking for a full-time SDE position.
+        </a>
+        teaching Python for AI. I enjoy programming
+        , and I am actively looking for a full-time SDE position.
       </p>
       <ul className="actions">
         <li>
