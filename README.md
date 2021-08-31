@@ -60,7 +60,9 @@ You may wish to fork this repository or remove my remote origin and add your own
 ## Deploying to Github Pages
 
 1. Change `NODE_ENV` to `production` in `.env`
-2. Run `npm run deploy`
+2. Comment the `BASE_PATH` in `.env` file.
+3. Run `npm run deploy`
+4. Set customized domain `https://github.com/YinhaoHe/Yinhao-personal-site/settings/pages` here.
 
 That's it.
 

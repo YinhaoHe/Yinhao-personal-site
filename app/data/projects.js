@@ -4,7 +4,7 @@ const data = [
     title: "Kafka, HBase based Coupon Distribution System",
     subtitle: "Coupon distribution system based on Kafka, HBase & Spring Boot.",
     link: "https://github.com/YinhaoHe/Coupon-Distribution-System",
-    image: "/images/projects/coupondistributionsystem.jpg",
+    image: "images/projects/couponDistributionSystem.jpg",
     date: "2020-06",
     desc:
       "Built the system with Kafka, HBase and MySQL, Redis as cache, Spring Boot for backend service.  " +
@@ -17,7 +17,7 @@ const data = [
     title: "Hadoop, Spark, IoT based WIFI Probe Big Data Analysis Platform",
     subtitle: "Hadoop, Spark, Scala big data analysis system",
     link: " ",
-    image: "/images/projects/wifi.jpg",
+    image: "images/projects/wifi.jpg",
     date: "2020-03",
     desc:
       "Implemented big data analysis system with Hadoop, Spark, Scala; visualized the results using ECharts.js, d3.js. " +
@@ -31,7 +31,7 @@ const data = [
     subtitle:
       "Web and Mobile application based on Angular, Ionic, Node.js, Express",
     link: " ",
-    image: "/images/projects/daliantaxi.jpg",
+    image: "images/projects/dalianTaxi.jpg",
     date: "2017-04",
     desc:
       "Led web/mobile application development with Angular, RESTful API endpoints and MySQL design with Node.js, SQL. " +
@@ -43,7 +43,7 @@ const data = [
     title: "UCI Cloudberry Big Data Visualization ",
     subtitle: "Gowalla GIS big data visualization",
     link: "http://cloudberry.ics.uci.edu/apps/twittermap/",
-    image: "/images/projects/cloudberry.jpg",
+    image: "images/projects/cloudBerry.jpg",
     date: "2019-03",
     desc:
       "Improved performance 50% by building code using JavaScript to force browser call GPU to render. " +
